@@ -7,3 +7,6 @@ jobs:
     steps:
     - uses: actions/checkout/v2
     - uses: ./.
+    - name: Dump job context
+      env:
+        JOB_CONTEXT: ${{ toJson(job) }}
