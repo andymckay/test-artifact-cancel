@@ -1,6 +1,7 @@
 name: Delete Artifacts
 on:
-  check_suite: completed
+  check_suite: 
+  - completed
 jobs:
   build:        
     runs-on: ubuntu-latest
