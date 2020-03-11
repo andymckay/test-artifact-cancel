@@ -1,0 +1,8 @@
+name: 'Delete Artifacts'
+runs:
+  using: 'node12'
+  main: 'delete.js'
+branding:
+  icon: 'align-center'
+  color: 'orange'
+description: 'Deletes the artifacts'
